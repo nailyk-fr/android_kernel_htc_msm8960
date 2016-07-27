@@ -622,7 +622,7 @@ CDEFINES += -DWLAN_FEATURE_HOLD_RX_WAKELOCK
 endif
 
 # Fix build for GCC 4.7
-EXTRA_CFLAGS += -Wno-maybe-uninitialized -Wno-unused-function
+EXTRA_CFLAGS += -Wno-unused-function
 
 KBUILD_CPPFLAGS += $(CDEFINES)
 
